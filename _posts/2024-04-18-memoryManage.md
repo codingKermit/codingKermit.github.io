@@ -24,13 +24,14 @@ tags : [정보처리기사]
 </ol>
 <h2 id="fetchConcept">반입 기법의 개념</h2>
 보조 기억장치의 프로그램이나 데이터를 주 기억장치에 언제 적재할 것인지를 결정하는 방법
+<h3 id="fetchList">반입 기법의 종류</h3>
 <ol>
     <li>요구 반입</li>
     <li>예상 반입</li>
 </ol>
 <h2 id="placementConcept">배치 기법의의 개념</h2>
 디스크에 있는 프로세스를 주기억장치의 어느 위치에 저장할 것인지 결정하는 방법
-<h3>배치 기법의 종류</h3>
+<h3 id="placementList">배치 기법의 종류</h3>
 <ol>
     <li>최초 적합 (First Fit)</li>
     <li>최적 적합 (Best Fit)</li>
@@ -38,7 +39,7 @@ tags : [정보처리기사]
 </ol>
 <h2 id="allocationConcept">할당 기법의 개념</h2>
 프로세스를 실행시키기 위해 주기억장치에 어떻게 할당할 것인지에 대한 내용
-<h3>할당 기법의 종류</h3>
+<h3 id="allocationList">할당 기법의 종류</h3>
 <ol>
     <li>연속 할당 기법</li>
         <ul>
@@ -54,7 +55,7 @@ tags : [정보처리기사]
 </ol>
 <h2 id="replacementConcept">교체 기법의 개념</h2>
 주기억 장치에 있는 프로세스 중 어떤 프로세스를 제거할 것인지를 결정하는 기법
-<h3>교체 기법의 종류</h3>
+<h3 id="replacementList">교체 기법의 종류</h3>
 <ol>
     <li>FIFO (Fist In First Out)</li>
     <li>LRU (Least Recently Used)</li>
