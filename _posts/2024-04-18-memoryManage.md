@@ -17,10 +17,26 @@ tags : [정보처리기사]
 프로그램의 실행이 종료될 때 까지 메모리를 사용 가능한 상태로 유지 및 관리하는 방법
 <h3>메모리 관리 기법</h3>
 <ol>
-    <li><a hef="#fetchConcept">반입 기법</a></li>
-    <li><a href="#replacementConcept">배치 기법</a></li>
-    <li><a href="#allocationConcept">할당 기법</a></li>
-    <li><a href="#replacementConcept">교체 기법</a></li>
+    <li>
+        <!-- <a hef="#fetchConcept"> -->
+            반입 기법
+        <!-- </a> -->
+    </li>
+    <li>
+        <!-- <a href="#replacementConcept"> -->
+            배치 기법
+        <!-- </a> -->
+    </li>
+    <li>
+        <!-- <a href="#allocationConcept"> -->
+            할당 기법
+        <!-- </a> -->
+    </li>
+    <li>
+        <!-- <a href="#replacementConcept"> -->
+            교체 기법
+        <!-- </a> -->
+    </li>
 </ol>
 <h2 id="fetchConcept">반입 기법의 개념</h2>
 보조 기억장치의 프로그램이나 데이터를 주 기억장치에 언제 적재할 것인지를 결정하는 방법
