@@ -19,7 +19,9 @@ tags : [정보처리기사]
 <ol>
     <li>
         <!-- <a hef="#fetchConcept"> -->
+        <a>
             반입 기법
+        </a>
         <!-- </a> -->
     </li>
     <li>
