@@ -220,4 +220,4 @@ tags : [정보처리기사]
 원래는 소프트웨어 생명주기 모델과 개발 방법론을 따로 작성하려 했으나 이 둘 때문에 같이 쓰다보니 글이 길어졌네요 
 소프트웨어 너무 어려워요😢  
 시스템의 동작 원리 같은게 아니라 방법론이니까 암기하는 수 밖에 없잖아요
-![너무어려워](https://1.gall-img.com/hygall/files/attach/images/82/480/179/232/b0cdbb575c417b268fe85ec3addc41cf.jpg)
+<img src="https://1.gall-img.com/hygall/files/attach/images/82/480/179/232/b0cdbb575c417b268fe85ec3addc41cf.jpg" width="250">
