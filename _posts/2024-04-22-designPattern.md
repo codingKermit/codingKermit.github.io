@@ -38,7 +38,7 @@ tags : [정보처리기사]
 7. 어댑터(Adapter)
 
 ### 행위 패턴의 종류
-1. 옵저버 (Observer) : 
-2. 중재자 (Mediator) : 
-3. 방문자 (Visitor) : 
-4. 전략 (Strategy) : 
+1. 옵저버 (Observer) 
+2. 중재자 (Mediator) 
+3. 방문자 (Visitor) 
+4. 전략 (Strategy)
