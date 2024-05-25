@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#터미널로-연결하기",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -145,8 +146,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -163,15 +163,16 @@
       "markdown-importer:마크다운 형식 가져오기 열기": false
     }
   },
-  "active": "0eb698f504eda34f",
+  "active": "60022c40b3938bcf",
   "lastOpenFiles": [
+    "_posts/2024-04-21-softwareDevelopment.md",
+    "_posts/2024-04-18-memoryManage.md",
+    "_posts/2024-05-08-Obsidian.md",
     "Pasted image 20240525174130.png",
     "Pasted image 20240525173457.png",
     "Pasted image 20240525172016.png",
     "Pasted image 20240525171956.png",
     "().md",
-    "_posts/2024-05-08-Obsidian.md",
-    "_posts/2024-04-21-softwareDevelopment.md",
     "_posts/2024-04-21-UML.md",
     "_posts/2024-04-22-designPattern.md",
     "Pasted image 20240525165440.png",
@@ -182,7 +183,6 @@
     "Pasted image 20240508231124.png",
     "Pasted image 20240508230946.png",
     "_posts/2023-10-13-first.md",
-    "assets/img/avatar.jpg",
     "Tags"
   ]
 }
