@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-04-21-softwareDevelopment.md",
+                "file": "_posts/2024-05-08-Obsidian.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-04-21-softwareDevelopment.md",
+                "file": "_posts/2024-05-08-Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-04-21-softwareDevelopment.md",
+                "file": "_posts/2024-05-08-Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-04-21-softwareDevelopment.md"
+                "file": "_posts/2024-05-08-Obsidian.md"
               }
             }
           },
@@ -165,6 +165,7 @@
   },
   "active": "0eb698f504eda34f",
   "lastOpenFiles": [
+    "_posts/2024-04-22-designPattern.md",
     "_posts/2024-05-08-Obsidian.md",
     "_posts/2024-04-21-softwareDevelopment.md",
     "_posts/2024-04-18-memoryManage.md",
@@ -174,7 +175,6 @@
     "Pasted image 20240525171956.png",
     "().md",
     "_posts/2024-04-21-UML.md",
-    "_posts/2024-04-22-designPattern.md",
     "Pasted image 20240525165440.png",
     "Pasted image 20240525164649.png",
     "Tasks Plugin - Review and check your Statuses 2024-05-15 18-57-33.md",
