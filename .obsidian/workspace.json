@@ -1,0 +1,188 @@
+{
+  "main": {
+    "id": "d4e0525340ad1ddf",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4d1902f97e8f062",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0eb698f504eda34f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-05-08-Obsidian.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "264eef28ae53d7ac",
+    "type": "split",
+    "children": [
+      {
+        "id": "d9d1285802658e70",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "57406065c8a962c2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7eeed42a2a7f32fa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4ef311468410b4cf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "241e685436a195b9",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "586bc52e83bc031d",
+    "type": "split",
+    "children": [
+      {
+        "id": "4b86d6ee653a6b66",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "60022c40b3938bcf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/2024-05-08-Obsidian.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0a74ba786a777ba8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_posts/2024-05-08-Obsidian.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8f60d9dbb59380df",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "71f2d43655cdaeb6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_posts/2024-05-08-Obsidian.md"
+              }
+            }
+          },
+          {
+            "id": "11fffe410df5cc06",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "markdown-importer:마크다운 형식 가져오기 열기": false
+    }
+  },
+  "active": "0eb698f504eda34f",
+  "lastOpenFiles": [
+    "Pasted image 20240525174130.png",
+    "Pasted image 20240525173457.png",
+    "Pasted image 20240525172016.png",
+    "Pasted image 20240525171956.png",
+    "().md",
+    "_posts/2024-05-08-Obsidian.md",
+    "_posts/2024-04-21-softwareDevelopment.md",
+    "_posts/2024-04-21-UML.md",
+    "_posts/2024-04-22-designPattern.md",
+    "Pasted image 20240525165440.png",
+    "Pasted image 20240525164649.png",
+    "Tasks Plugin - Review and check your Statuses 2024-05-15 18-57-33.md",
+    "Pasted image 20240509220850.png",
+    "Pasted image 20240509220705.png",
+    "Pasted image 20240508231124.png",
+    "Pasted image 20240508230946.png",
+    "_posts/2023-10-13-first.md",
+    "assets/img/avatar.jpg",
+    "Tags"
+  ]
+}
