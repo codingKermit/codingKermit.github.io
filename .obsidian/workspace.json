@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-05-08-Obsidian.md",
+                "file": "_posts/2024-04-21-softwareDevelopment.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-05-08-Obsidian.md",
+                "file": "_posts/2024-04-21-softwareDevelopment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-05-08-Obsidian.md",
+                "file": "_posts/2024-04-21-softwareDevelopment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-05-08-Obsidian.md"
+                "file": "_posts/2024-04-21-softwareDevelopment.md"
               }
             }
           },
@@ -146,7 +145,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -163,11 +163,11 @@
       "markdown-importer:마크다운 형식 가져오기 열기": false
     }
   },
-  "active": "60022c40b3938bcf",
+  "active": "0eb698f504eda34f",
   "lastOpenFiles": [
+    "_posts/2024-05-08-Obsidian.md",
     "_posts/2024-04-21-softwareDevelopment.md",
     "_posts/2024-04-18-memoryManage.md",
-    "_posts/2024-05-08-Obsidian.md",
     "Pasted image 20240525174130.png",
     "Pasted image 20240525173457.png",
     "Pasted image 20240525172016.png",
