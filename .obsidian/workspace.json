@@ -73,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -165,6 +166,8 @@
   },
   "active": "0eb698f504eda34f",
   "lastOpenFiles": [
+    "Pasted image 20240526201606.png",
+    "Pasted image 20240526201552.png",
     "_posts/2024-04-22-designPattern.md",
     "_posts/2024-05-08-Obsidian.md",
     "_posts/2024-04-21-softwareDevelopment.md",
@@ -181,7 +184,6 @@
     "Pasted image 20240509220850.png",
     "Pasted image 20240509220705.png",
     "Pasted image 20240508231124.png",
-    "Pasted image 20240508230946.png",
     "_posts/2023-10-13-first.md",
     "Tags"
   ]
