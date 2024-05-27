@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#터미널로연결하기",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -155,7 +155,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "5af5c68cdf92d021",
+  "active": "93f6cf1e2a18a2bb",
   "lastOpenFiles": [
     "2024-05-27-SVN 에러.md",
     "Tags"
