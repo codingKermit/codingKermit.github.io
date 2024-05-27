@@ -73,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -158,6 +157,7 @@
   "active": "5af5c68cdf92d021",
   "lastOpenFiles": [
     "2024-05-27-SVN 에러.md",
+    "2024-05-08-Obsidian.md",
     "Tags"
   ]
 }
