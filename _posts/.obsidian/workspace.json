@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-05-27-PuTTY로 EC2 연결하기.md",
+                "file": "2024-05-27-putty.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-05-27-PuTTY로 EC2 연결하기.md",
+                "file": "2024-05-27-putty.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-05-27-PuTTY로 EC2 연결하기.md",
+                "file": "2024-05-27-putty.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-05-27-PuTTY로 EC2 연결하기.md"
+                "file": "2024-05-27-putty.md"
               }
             }
           }
@@ -157,14 +157,14 @@
   },
   "active": "5af5c68cdf92d021",
   "lastOpenFiles": [
-    "Pasted image 20240528142109.png",
-    "2024-05-27-PuTTY로 EC2 연결하기.md",
-    "Pasted image 20240528135203.png",
     "2023-10-13-first.md",
+    "2024-05-27-putty.md",
+    "2024-05-08-Obsidian.md",
+    "Pasted image 20240528142109.png",
+    "Pasted image 20240528135203.png",
     "2024-05-.md",
     "2024-04-12-license.md",
     "2023-10-17-mssqlDataType.md",
-    "2024-05-08-Obsidian.md",
     "2024-04-18-memoryManage.md",
     "2024-04-21-softwareDevelopment.md",
     "2024-04-21-UML.md",
