@@ -38,7 +38,11 @@
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/"
+    "/",
+    "//_posts",
+    "//assets",
+    "//assets/assets/img",
+    "//assets/assets/img/assets/img/screenshot"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
