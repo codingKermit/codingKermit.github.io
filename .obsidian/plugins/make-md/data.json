@@ -39,8 +39,6 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "/",
-    "//_posts",
-    "//assets",
     "//assets/assets/img",
     "//assets/assets/img/assets/img/screenshot",
     "//assets/assets/img/assets/img/screenshot",
@@ -49,7 +47,12 @@
     "//assets/assets/img/assets/img/screenshot",
     "//assets/assets/img/assets/img/screenshot/assets/img/screenshot/2024-05-27-putty",
     "//assets/assets/img/assets/img/screenshot",
-    "//assets/assets/img/assets/img/screenshot/assets/img/screenshot/2024-05-27-putty"
+    "//assets/assets/img/assets/img/screenshot/assets/img/screenshot/2024-05-27-putty",
+    "//assets/assets/img/assets/img/screenshot",
+    "//assets/assets/img/assets/img/screenshot/assets/img/screenshot/2024-05-28-Hits",
+    "//assets/assets/img/assets/img/screenshot/assets/img/screenshot/2024-05-28-Hits",
+    "//_posts",
+    "//_includes"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

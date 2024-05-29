@@ -4,22 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "b4d1902f97e8f062",
+        "id": "fe107ba0169abb13",
         "type": "tabs",
         "children": [
           {
-            "id": "0eb698f504eda34f",
+            "id": "7bc815e38b0dbc7d",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/img/screenshot/2024-05-28-Hits/img2.png"
+              }
+            }
+          },
+          {
+            "id": "d307c95950c2455a",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/img/screenshot/2024-05-28-Hits/img1.png"
+              }
+            }
+          },
+          {
+            "id": "97560ef27ba577f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-05-27-putty.md",
+                "file": "_posts/2024-05-28-Hits.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-05-27-putty.md",
+                "file": "_posts/2024-05-28-Hits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-05-27-putty.md",
+                "file": "_posts/2024-05-28-Hits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-05-27-putty.md"
+                "file": "_posts/2024-05-28-Hits.md"
               }
             }
           },
@@ -165,15 +186,23 @@
       "markdown-importer:마크다운 형식 가져오기 열기": false
     }
   },
-  "active": "0eb698f504eda34f",
+  "active": "97560ef27ba577f7",
   "lastOpenFiles": [
+    "().md",
+    "_posts/2024-05-28-Hits.md",
+    "assets/img/screenshot/2024-05-28-Hits/img2.png",
+    "assets/img/screenshot/2024-05-28-Hits/img1.png",
+    "assets/img/screenshot/Pasted.md",
+    "assets/img/screenshot/2024-05-28-Hits/2024-05-28-Hits.md",
+    "assets/img/screenshot/2024-05-28-Hits",
+    "assets/img/screenshot/Untitled.md",
+    "assts.md",
+    "_posts/2023-10-17-mssqlDataType.md",
+    "_posts/2024-05-27-putty.md",
     "assets/img/screenshot/2024-05-27-putty/putty.png",
     "assets/img/screenshot/screenshot.md",
     "assets/img/screenshot/2024-05-27-putty/2024-05-27-putty.md",
     "assets/img/screenshot/2024-05-27-putty",
-    "_posts/2024-05-27-putty.md",
-    "assets/img/screenshot/Untitled.md",
-    "assts.md",
     "_posts/2023-10-13-first.md",
     "_posts/2024-05-08-Obsidian.md",
     "Tags",
@@ -186,11 +215,8 @@
     "Pasted image 20240525173457.png",
     "Pasted image 20240525172016.png",
     "Pasted image 20240525171956.png",
-    "().md",
     "_posts/2024-04-21-UML.md",
     "Pasted image 20240525165440.png",
-    "Pasted image 20240525164649.png",
-    "Tasks Plugin - Review and check your Statuses 2024-05-15 18-57-33.md",
-    "Pasted image 20240509220850.png"
+    "Tasks Plugin - Review and check your Statuses 2024-05-15 18-57-33.md"
   ]
 }
