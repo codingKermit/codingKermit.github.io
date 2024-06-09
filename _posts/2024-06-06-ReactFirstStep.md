@@ -107,3 +107,4 @@ You provided a `value` prop to a form field without an `onChange` handler. This 
 그리고 위에서 얘기했듯 `useState()`를 사용할 때에는 초기 값을 설정 하는 것이 더 좋아 보입니다
 
 리액트...재밌네?
+![](/assets/img/kermit/lovelyKermit.jpg)
