@@ -2,11 +2,11 @@
 title: 리액트 맛보기 1일차
 date: 2024-06-06
 categories:
-  - Fe
+  - Front End
   - React
 tags:
   - React
-  - Fe
+  - FrontEnd
 ---
 리액트 공부 1일차
 
