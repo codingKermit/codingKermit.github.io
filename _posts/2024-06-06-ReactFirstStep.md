@@ -70,9 +70,7 @@ const [data, setData] = useState();
 
 위 처럼 `useState()` 의 괄호를 빈 값으로 넣었을 경우  `setData()` 를 통해 값을 변경하면 에러가 발생합니다.  
 
-```
-A component is changing an uncontrolled input to be controlled. This is likely caused by the value changing from undefined to a defined value, which should not happen. Decide between using a controlled or uncontrolled input element for the lifetime of the component.
-```
+>A component is changing an uncontrolled input to be controlled. This is likely caused by the value changing from undefined to a defined value, which should not happen. Decide between using a controlled or uncontrolled input element for the lifetime of the component.
  
 이 에러는 `useState()` 를 빈값으로 호출 했을 경우 주어지는 변수의 값이 undefind가 되기 때문에 발생하는 에러 입니다. 앱 전체에 큰 영향을 끼치는 에러는 아닌 것으로 보이지만 이런 에러를 발생시키지 않게 하기 위해서 초기 값을 설정하는 습관을 들이는 것이 좋겠습니다.
 
@@ -107,9 +105,8 @@ const onChange = (e) =>{
 
 **+ value만 사용하면 발생하는 에러**  
 
-```
-You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
-```
+>You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.  
+
 
 ***발견한 특이사항***  
 위에서 사용한 예시 코드에서 `useState()` 에 초기 값을 `''` 으로 설정했습니다. 하지만
