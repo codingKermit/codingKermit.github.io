@@ -81,7 +81,7 @@ A component is changing an uncontrolled input to be controlled. This is likely c
 예시로 class는 class를 정의할 때 사용되는 예약어고 for도 이처럼 예약어로 사용되고 있는 키워드입니다.  
 그래서 예약어로 사용되는 키워드는 살짝 다르게 쓰이고 있습니다. 이거 모르면 왜 안되지? 하면서 구글링만 합니다.  
 
-### 04. value, onChange
+## 04. value, onChange
 input 태그에서 value와 onChange는 세트로 작성 해야 합니다.
 
 ```
