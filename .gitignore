@@ -22,5 +22,7 @@ package-lock.json
 # assets/js/dist
 
 # Obsidian options directories
-./makemd/
+.makemd/
 .obsidian/
+workspace.json
+data.json
