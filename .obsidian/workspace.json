@@ -8,39 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7bc815e38b0dbc7d",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "assets/img/screenshot/2024-05-28-Hits/img2.png"
-              }
-            }
-          },
-          {
-            "id": "d307c95950c2455a",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "assets/img/screenshot/2024-05-28-Hits/img1.png"
-              }
-            }
-          },
-          {
             "id": "97560ef27ba577f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-05-28-Hits.md",
+                "file": "_posts/2024-06-13-eclipse.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -115,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-05-28-Hits.md",
+                "file": "_posts/2024-06-13-eclipse.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-05-28-Hits.md",
+                "file": "_posts/2024-06-13-eclipse.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-05-28-Hits.md"
+                "file": "_posts/2024-06-13-eclipse.md"
               }
             }
           },
@@ -166,9 +144,17 @@
               "type": "git-history-view",
               "state": {}
             }
+          },
+          {
+            "id": "d5d415eabcf169f4",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -176,22 +162,27 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
-      "markdown-importer:마크다운 형식 가져오기 열기": false
+      "markdown-importer:마크다운 형식 가져오기 열기": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "97560ef27ba577f7",
   "lastOpenFiles": [
-    "().md",
-    "_posts/2024-05-28-Hits.md",
+    "_posts/Tags",
+    "_posts/2024-06-13-eclipse.md",
+    "_posts/2024-06-11-TroubleShooting.md",
     "assets/img/screenshot/2024-05-28-Hits/img2.png",
     "assets/img/screenshot/2024-05-28-Hits/img1.png",
+    "_posts/2024-06-06-React First Step.md",
+    "_posts/2024-05-28-Hits.md",
+    "Tags",
+    "().md",
     "assets/img/screenshot/Pasted.md",
     "assets/img/screenshot/2024-05-28-Hits/2024-05-28-Hits.md",
     "assets/img/screenshot/2024-05-28-Hits",
@@ -205,7 +196,6 @@
     "assets/img/screenshot/2024-05-27-putty",
     "_posts/2023-10-13-first.md",
     "_posts/2024-05-08-Obsidian.md",
-    "Tags",
     "Pasted image 20240526201606.png",
     "Pasted image 20240526201552.png",
     "_posts/2024-04-22-designPattern.md",
