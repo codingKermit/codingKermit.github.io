@@ -11,10 +11,8 @@
             "id": "5af5c68cdf92d021",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
-              "state": {
-                "path": "Tags"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -149,7 +147,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "5af5c68cdf92d021",
+  "active": "a000d8d9f4c7c96a",
   "lastOpenFiles": [
     "2024-06-13-eclipse.md",
     "2023-10-13-first.md",
