@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "e9dfb0a6cbded7dc",
+        "id": "dfee8ac5d205eee6",
         "type": "tabs",
         "children": [
           {
-            "id": "30e9a82aa69999d6",
+            "id": "4b9500bf030d027c",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "_posts/Tags"
+                "file": "_posts/2024-06-13-eclipse.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -92,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/2024-06-13-eclipse.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_posts/2024-06-13-eclipse.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_posts/2024-06-13-eclipse.md"
+              }
             }
           },
           {
@@ -167,12 +173,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "30e9a82aa69999d6",
+  "active": "4b9500bf030d027c",
   "lastOpenFiles": [
-    "assts.md",
     "_posts/2024-06-13-eclipse.md",
+    "assets/img/screenshot/2024-06-13-eclipse/img1.png",
+    "assets/img/screenshot/2024-06-13-eclipse/img2.png",
+    "assts.md",
     "conflict-files-obsidian-git.md",
-    "assets/img/screenshot/2024-06-13-eclipse/Pasted image 20240614143316.png",
     "assets/img/screenshot/2024-06-13-eclipse/2024-06-13-eclipse.md",
     "assets/img/screenshot/2024-06-13-eclipse",
     "assets/img/kermit/lovelyKermit.jpg",
@@ -204,7 +211,6 @@
     "_posts/2024-04-21-softwareDevelopment.md",
     "_posts/2024-04-18-memoryManage.md",
     "Pasted image 20240525174130.png",
-    "Pasted image 20240525173457.png",
     "_posts/2024-04-21-UML.md",
     "Tasks Plugin - Review and check your Statuses 2024-05-15 18-57-33.md"
   ]
