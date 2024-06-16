@@ -39,7 +39,6 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "/",
-    "//assets/assets/img",
     "//assets/assets/img/assets/img/screenshot",
     "//assets/assets/img/assets/img/screenshot",
     "//assets/assets/img/assets/img/screenshot",
@@ -54,9 +53,10 @@
     "//_posts",
     "//_posts",
     "//_posts",
-    "//assets",
     "//assets/assets/img/assets/img/screenshot",
-    "//assets/assets/img/assets/img/screenshot/assets/img/screenshot/2024-06-16-React"
+    "//assets/assets/img/assets/img/screenshot/assets/img/screenshot/2024-06-16-React",
+    "//assets/assets/js",
+    "//_posts"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
