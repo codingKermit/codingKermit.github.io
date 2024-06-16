@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "712520bb2e6fc0e5",
+        "id": "d9308c063bf8296a",
         "type": "tabs",
         "children": [
           {
-            "id": "03ea8b1b6e81b5ea",
+            "id": "5ebaf886163e4f11",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-06-16-React.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/2024-06-16-React.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_posts/2024-06-16-React.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_posts/2024-06-16-React.md"
+              }
             }
           },
           {
@@ -165,8 +173,16 @@
       "markdown-importer:마크다운 형식 가져오기 열기": false
     }
   },
-  "active": "03ea8b1b6e81b5ea",
+  "active": "5ebaf886163e4f11",
   "lastOpenFiles": [
+    "_posts/2024-06-16-React.md",
+    "_posts/2024-06-13-eclipse.md",
+    "conflict-files-obsidian-git.md",
+    "assets/img/screenshot/2024-06-13-eclipse/img2.png",
+    "assets/img/screenshot/2024-06-13-eclipse/img1.png",
+    "assets/img/screenshot/2024-06-13-eclipse/2024-06-13-eclipse.md",
+    "assets/img/screenshot/2024-06-13-eclipse",
+    "_posts/2024-06-11-TroubleShooting.md",
     "_posts/2024-06-06-ReactFirstStep.md",
     "assets/img/kermit/working kermit.gif",
     "assets/img/kermit/fatKermit.jpg",
@@ -196,8 +212,6 @@
     "assets/img/screenshot/2024-05-27-putty/2024-05-27-putty.md",
     "assets/img/screenshot/2024-05-27-putty",
     "Tags",
-    "Pasted image 20240526201606.png",
-    "Pasted image 20240526201552.png",
     "Tasks Plugin - Review and check your Statuses 2024-05-15 18-57-33.md"
   ]
 }
