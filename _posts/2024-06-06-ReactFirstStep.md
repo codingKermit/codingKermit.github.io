@@ -7,6 +7,8 @@ categories:
 tags:
   - React
   - FrontEnd
+  - 프론트엔드
+  - 리액트
 ---
 리액트 공부 1일차
 
