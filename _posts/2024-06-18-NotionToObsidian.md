@@ -25,7 +25,7 @@ tags:
 
 ## 01. 노션 워크스페이스 내보내기
 
-![](Pasted%20image%2020240618100034.png)  
+![](/assets/img/screenshot/Pasted%20image%2020240618100034.png)  
 
 설정과 멤버 -> 설정 -> 콘텐츠 내보내기 -> 내보내기 형식 : HTML
 
@@ -44,11 +44,11 @@ tags:
 
 `Ctrl+P` 를 눌러 명령어 입력창을 열고 importer를 실행합니다.  
 
-![](Pasted%20image%2020240617175034.png)
+![](/assets/img/screenshot/Pasted%20image%2020240617175034.png)
 여기서 우리는 Notion을 선택합니다
 
-![](Pasted%20image%2020240617175131.png)
+![](/assets/img/screenshot/Pasted%20image%2020240617175131.png)
 
 Choose file -> 노션에서 내보내기한 zip 파일 선택
-![](Pasted%20image%2020240617175831.png)  
+![](/assets/img/screenshot/Pasted%20image%2020240617175831.png)  
 알아서 파일 읽고 전환합니다 대박!
