@@ -55,8 +55,9 @@ tags:
 
 - 단순히 www.naver.com 으로 작성하는게 아니라 https://www.naver.com 으로 작성해야 링크가 걸리는 부분도 주의 합니다.
 - **참고** `http` 가 아닌 `https` 로 해야 링크가 걸리는 부분도 확인 했습니다. 깃허브 블로그에서 빌드가 실패하며 아래와 같은 에러를 발생시킵니다.
-  > [http://www.naver.com](http://www.naver.com/) is not an HTTPS link
-  
+```
+[http://www.naver.com](http://www.naver.com/) is not an HTTPS link
+```  
 
 사용 예시 입니다
 [네이버 바로가기](https://www.naver.com)
