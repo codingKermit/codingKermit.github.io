@@ -49,8 +49,8 @@ tags:
 
 예시로 네이버로 가는 외부 링크는 아래와 같이 작성할 수 있습니다
 ```
-[네이버 바로가기](www.naver.com)
+[네이버 바로가기](http://www.naver.com)
 ```
 
 사용 예시 입니다
-[네이버 바로가기](www.naver.com)
+[네이버 바로가기](http://www.naver.com)
