@@ -114,5 +114,5 @@ const onChange = (e) =>{
 위에서 사용한 예시 코드에서 `useState()` 에 초기 값을 `''` 으로 설정했습니다. 하지만
 `useState()`를 통해 변수를 생성했을 때에 괄호 내에 아무런 값을 입력하지 않은 경우에는 onChange를 함께 사용하지 않아도 화면에는 값이 변경되는 것이 확인 됩니다. 하지만 실제로 value로 설정한 변수에 사용자의 입력 값이 저장되고 있는 것은 아닙니다.
 그리고 위에서 얘기했듯 `useState()`를 사용할 때에는 초기 값을 설정 하는 것이 더 좋아 보입니다.  
-리액트...재밌네?
+리액트...재밌네?  
 ![Lichtenstein](https://images.weserv.nl/?url=https://codingkermit.github.io/assets/img/kermit/lovelyKermit.jpg&w=200&h=200&output=jpg&q=65)
