@@ -22,7 +22,7 @@ tags:
 
 자바 7버전 에서는 HTTP DELETE의 request body에 데이터를 담아 보내는 것을 명시적으로는 지원하지 않습니다.
 
-`HttpEntityEnclosingRequestBase` 클래스를 상속받은 객체를 생성하는 것으로 문제를 해결할 수 있었습니다.
+결론부터 얘기하자면 `HttpEntityEnclosingRequestBase` 클래스를 상속받은 객체를 생성하는 것으로 문제를 해결할 수 있었습니다.
 
 여기서 먼저 `HttpEntityEnclosingRequestBase` 와 `HttpRequestBase`의 차이점에 대해 알아볼 필요가 있습니다.
 
