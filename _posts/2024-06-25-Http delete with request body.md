@@ -26,11 +26,13 @@ tags:
 
 여기서 먼저 `HttpEntityEnclosingRequestBase` 와 `HttpRequestBase`의 차이점에 대해 알아볼 필요가 있습니다.
 
-|             | HttpEntityEnclosingRequestBase |              HttpRequestBase              |
-|:-----------:|:------------------------------:|:-----------------------------------------:|
-| 라이브러리  |       Apache httpClient        |             Apache httpClient             |
-| 엔티티 여부 |               O                |                     X                     |
-|    상속     |  HttpRequestBase를 상속 받음   | AbstractExecutionAwareRequest를 상속 받음 |
+
+|        | HttpEntityEnclosingRequestBase |           HttpRequestBase            |
+| :----: | :----------------------------: | :----------------------------------: |
+| 라이브러리  |       Apache httpClient        |          Apache httpClient           |
+| 엔티티 여부 |               O                |                  X                   |
+|   상속   |     HttpRequestBase를 상속 받음     | AbstractExecutionAwareRequest를 상속 받음 |
+
 <small>HttpEntityEnclosingRequestBase는 HttpRequestBase의 확장 버전 같은거구나!</small>
 
 Apache httpClient는 HTTP 통신을 돕는 라이브러리입니다.   
@@ -39,9 +41,11 @@ GET, POST, PUT, DELETE 에 대응하는 클래스를 가지고 있으며 각각�
 제가 회사에서 사용중인 Apache httpClient 라이브러리 버전은 4.3.6버전이며,  
 해당 버전에서 상속 관계는 아래의 표와 같습니다.
 
+
 | HttpEntityEnclosingRequestBase 상속 |                HttpRequestBase 상속                |
 | :-------------------------------: | :----------------------------------------------: |
 | HttpPatch<br>HttpPost<br>HttpPut  | HttpGet<br>HttpDelete<br>HttpOptions<br>HttpHead |
+
 <small>Patch, Options, Head는 처음보네요</small>
 
 여기서 알 수 있듯이 HTTP DELETE를 지원하는 HttpDelete 클래스는 HttpRequestBase를 상속 받았기 때문에 엔티티를 사용할 수 없습니다.
