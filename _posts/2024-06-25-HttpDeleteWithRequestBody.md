@@ -86,6 +86,7 @@ HttpPost의 구조와 동일하며 static 변수인 METHOD_NAME의 값이 DELETE
 ```
 ...생략
 
+public String httpDeleteWithEntity() throws IOException{
 try(CloseableHttpClient httpClient = HttpClients.createDefault()){
 	String url = "https://api.example.com" // 예시를 들기 위해 아무거나 적었습니다
 	
@@ -96,6 +97,6 @@ try(CloseableHttpClient httpClient = HttpClients.createDefault()){
 		...생략
 	}
 }
-
+}
 ```
 
