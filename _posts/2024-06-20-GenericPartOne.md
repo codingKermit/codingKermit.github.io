@@ -1,13 +1,13 @@
 ---
-title: 제네릭 알아보기
+title: 제네릭 공식문서 파해치기 (1)
 date: 2024-06-20
 categories:
-  - Back End
   - Java
 tags:
   - BackEnd
   - Java
   - 제네릭
+  - Generic
 ---
 안녕하세요 🐸
 
@@ -154,10 +154,6 @@ Type safety: The expression of type List needs unchecked conversion to conform t
 ```
 
 여기서 생략된 코드 내에서 rawList에 어떠한 값이 담기는지 우리는 알 수 없습니다. 이는 런타임 에러를 유발하는 위험한 코드입니다.
-
-
-## 05. 제네릭 메서드(Generic Methods)
-
 
 ---
 참고문서 : https://docs.oracle.com/javase/tutorial/java/generics/index.html

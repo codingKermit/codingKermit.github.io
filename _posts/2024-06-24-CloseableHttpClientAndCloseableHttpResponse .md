@@ -2,7 +2,6 @@
 title: CloseableHttpClient, CloseableHttpResponse 사용 시 주의할 점
 date: 2024-06-24
 categories:
-  - Back End
   - Java
 tags:
   - BackEnd

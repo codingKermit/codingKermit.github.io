@@ -2,7 +2,6 @@
 title: 마크다운 링크 걸기
 date: 2024-06-21
 categories:
-  - blog
   - markdown
 tags:
   - blog

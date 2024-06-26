@@ -2,10 +2,8 @@
 title: Http delete의 body에 데이터 담기
 date: 2024-06-25
 categories:
-  - Back End
   - Java
 tags:
-  - BackEnd
   - Java
 ---
 안녕하세요!🐸

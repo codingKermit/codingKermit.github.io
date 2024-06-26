@@ -2,7 +2,6 @@
 title: gitignore 적용 안될 때
 date: 2024-06-17
 categories:
-  - github
   - git
 tags:
   - git

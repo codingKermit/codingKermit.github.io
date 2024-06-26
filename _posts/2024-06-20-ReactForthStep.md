@@ -2,7 +2,6 @@
 title: 리액트 맛보기 4일차
 date: 2024-06-20
 categories:
-  - Front End
   - React
 tags:
   - 프론트엔드

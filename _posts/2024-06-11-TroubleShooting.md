@@ -2,7 +2,7 @@
 title: this web application instance has been stopped already
 date: 2024-06-11
 categories:
-  - Back End
+  - Tomcat
   - Error
 tags:
   - Tomcat
