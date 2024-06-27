@@ -1,5 +1,5 @@
 ---
-title: 제네릭 공식문서 파해치기( 2)
+title: 제네릭 공식문서 파해치기 (2)
 date: 2024-06-26
 categories:
   - Java
