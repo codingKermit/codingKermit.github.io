@@ -1,6 +1,6 @@
 ---
-title: 제이쿼리 객체 이동
-date: 2024-06-26
+title: 제이쿼리 객체 추가
+date: 2024-06-27
 categories:
   - javascript
   - jQuery
@@ -68,8 +68,15 @@ unwrap(), wrap()의 예시입니다.
 경우의 수가 많기 때문에 이 경우에는 어떻게 되는지 궁금했는데 이렇게 되는군요
 
 ### wrapInner()
+선택한 요소의 내부를 감싸는 요소를 삽입합니다.
 
+<iframe height="300" style="width: 100%;" scrolling="no" title="jQuery wrapInner" src="https://codepen.io/MeowMeowPuppy/embed/NWVmYrR?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/MeowMeowPuppy/pen/NWVmYrR">
+  jQuery wrapInner</a> by MeowMeowPuppy (<a href="https://codepen.io/MeowMeowPuppy">@MeowMeowPuppy</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
+outer 클래스의 내부에 inner 클래스 요소가 생성되는 것을 확인할 수 있습니다.
 
 ---
 참고문서 : https://api.jquery.com/category/manipulation/
