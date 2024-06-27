@@ -1,5 +1,5 @@
 ---
-title: 제이쿼리 객체 추가
+title: 제이쿼리 객체 추가 (1) - DOM Insertion, Around
 date: 2024-06-27
 categories:
   - javascript
