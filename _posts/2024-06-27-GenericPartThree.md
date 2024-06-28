@@ -89,3 +89,64 @@ public class Multipler<T extends Number>{
 **주의점**  
 여기서 주의할 것은 `extends`를 한 타입의 메서드만 사용이 가능하다는 것입니다.  
 예를 들어 Number를 상속받은 클래스에는 Intger가 있습니다. 하지만 Number에서는 구현되지 않고 Integer에서만 구현된 메서드는 사용할 수 없습니다.
+
+### 다중 바운드
+
+앞선 예시에서는 Number를 상속받은 클래스로 제한을 했습니다.  
+경우에 따라서는 Number뿐만 아니라 다른 인터페이스까지 구현을 한 클래스로 제한을 해야하는 경우도 발생할 수 있습니다.
+
+다음은 Number와 Comparable을 구현한 클래스로 제한하는 다중 바운드 예제 입니다.
+
+```
+public class MultipleBoundTest {
+	
+	public static <T extends Number & Comparable<T>> int compare(T t1, T t2) {
+		return t1.compareTo(t2);
+	}
+}
+```
+
+위의 조건에 해당하는 클래스는 Integer, Double 등이 있지만 테스트를 위해 임시로 객체를 직접 생성해보았습니다.  
+
+```
+public class CustomNum extends Number implements Comparable<CustomNum>{
+	int i;
+	
+	public void set(int i) {
+		this.i = i;
+	}
+	
+	public int get() {
+		return i;
+	}
+	
+	@Override
+	public int compareTo(CustomNum o) {
+		if(o.get() > i) {
+			return 1;
+		}else if (o.get() < i){
+			return -1;
+		} else {
+			return 0;
+		}
+	} // this보다 
+	...생략
+}
+```
+
+그리고 이를 테스트 실행해보는 코드입니다.
+
+```
+public void main(String[] args){
+		CustomNum a = new CustomNum();
+		CustomNum b = new CustomNum();
+		
+		a.set(10);
+		b.set(20);
+		
+		System.out.println(
+				MultipleBoundTest.compare(a, b)
+		); // 1 출력
+}
+```
+
