@@ -262,4 +262,4 @@ useEffect의 첫 번째 인자로 log를 찍도록 했고 두 번째 인자로 f
 이를 응용하여 두 번째 인자를 빈 배열로 전달할 경우에는 화면이 랜더링 되는 최초 1회에만 수행되는 코드를 작성할 수 있습니다.
 
 리액트 재밌따  
-![Lichtenstein](https://images.weserv.nl/?url=https://codingkermit.github.io/assets/img/kermit/lovelyKermit.jpg&w=800&h=300&output=jpg&q=100)
+![](/assets/img/kermit/lovelyKermit.jpg)
