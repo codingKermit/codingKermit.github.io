@@ -154,3 +154,9 @@ public void main(String[] args){
 }
 ```
 
+만약 `CustomNum` 클래스에서 `Comparable`을 구현하지 않는다면 `MultipleBoundTest.compare()` 의 인자로 사용이 불가합니다.  
+`Comparable` 을 implements하지 않도록 변경한다면 아래와 같은 컴파일 에러를 발생시킵니다.
+
+>Bound mismatch: The generic method compare(T, T) of type MultipleBoundTest is not applicable for the arguments (CustomNum, CustomNum). The inferred type CustomNum is not a valid substitute for the bounded parameter <T extends Number & Comparable<T>>
+
+번역한다면 제한된 매개변수에 유효하지 않기 때문에 사용할 수 없다는 에러입니다.
