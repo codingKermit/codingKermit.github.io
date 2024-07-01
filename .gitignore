@@ -24,3 +24,6 @@ package-lock.json
 # Obsidian options directories
 .makemd/
 .obsidian/
+
+# Obsidian context db file
+context.mdb
