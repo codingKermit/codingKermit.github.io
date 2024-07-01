@@ -25,7 +25,7 @@ tags:
 
 사용 예제
 
-```
+```java
 public class Multipler<T extends Number>{
 	private T t;
 
@@ -52,7 +52,7 @@ Number를 상속받은 클래스에 한해 타입 변수를 받도록 작성한 
 
 위의 경우에서 `multiple()` 메서드의 타입 변수는 Number를 상속받은 객체로 한정하기 때문에 아래의 경우 컴파일 에러를 발생합니다.
 
-```
+```java
 
 Multipler<Integer> multipler = new Multipler();
 
@@ -68,7 +68,8 @@ multipler.multiple("곱하기 5"); // 컴파일 에러 발생
 앞선 예제에서는 Number를 상속받은 클래스로 타입을 제한했기 때문에 Number에서 제공하는 메서드를 사용할 수 있습니다.   
 예를 들자면 아래와 같습니다.
 
-```
+```java
+
 public class Multipler<T extends Number>{
 	...생략
 	
@@ -97,7 +98,8 @@ public class Multipler<T extends Number>{
 
 다음은 Number와 Comparable을 구현한 클래스로 제한하는 다중 바운드 예제 입니다.
 
-```
+```java
+
 public class MultipleBoundTest {
 	
 	public static <T extends Number & Comparable<T>> int compare(T t1, T t2) {
@@ -108,7 +110,8 @@ public class MultipleBoundTest {
 
 위의 조건에 해당하는 클래스는 Integer, Double 등이 있지만 테스트를 위해 임시로 객체를 직접 생성해보았습니다.  
 
-```
+```java
+
 public class CustomNum extends Number implements Comparable<CustomNum>{
 	int i;
 	
@@ -136,7 +139,8 @@ public class CustomNum extends Number implements Comparable<CustomNum>{
 
 그리고 이를 테스트 실행해보는 코드입니다.
 
-```
+```java
+
 public void main(String[] args){
 		CustomNum a = new CustomNum();
 		CustomNum b = new CustomNum();

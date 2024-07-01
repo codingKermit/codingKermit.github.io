@@ -50,7 +50,8 @@ GET, POST, PUT, DELETE 에 대응하는 클래스를 가지고 있으며 각각�
 
 그렇다면 이제 우리는 HttpEntityEnclosingRequestBase 를 상속받아 구현한 객체를 통해 HTTP METHOD와 ENTITY를 사용할 수 있음을 알았습니다. 이제는 직접 구현 예시를 만들어보겠습니다.
 
-```
+```java
+
 public class HttpDeleteWithEntity extends HttpEntityEnclosingRequestBase{
 	public static final String METHOD_NAME = "DELETE";
 
@@ -81,8 +82,9 @@ HttpPost의 구조와 동일하며 static 변수인 METHOD_NAME의 값이 DELETE
 
 이렇게 만든 객체를 사용해 통신하는 예시입니다.
 
-```
-...생략
+```java
+
+//...생략
 
 public String httpDeleteWithEntity() throws IOException{
 try(CloseableHttpClient httpClient = HttpClients.createDefault()){

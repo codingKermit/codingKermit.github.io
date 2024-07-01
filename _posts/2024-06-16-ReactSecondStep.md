@@ -18,7 +18,8 @@ tags:
 이 prop을 통해 자식 컴포넌트를 상황에 맞게 커스터마이징 하여 사용할 수 있도록 설계할 수 있습니다.
 
 ex)
-```
+```jsx
+
 const FirstBtn = (props) =>{
 	<button>{props.text}</button>
 }
@@ -45,7 +46,8 @@ function App(){
  이렇게 된다면 화면 내에 `<Btn/>` 이라는 컴포넌트가 500개가 있다 가정하면 1개의 `<Btn/>` 컴포넌트를 다시 랜더링 하기 위해 500개의 컴포넌트를 랜더링 해야하는 문제가 발생하고 이는 속도를 느게 만드는 원인이 될 수 있습니다.
  이 것을 막기위해 있는 방법이 `memo()` 입니다. prop의 변화가 있지 않다면 랜더링을 하지 않도록 명시하는 기능을 합니다.
 #### 개선 전
-```
+```jsx
+
 const Btn = ({index}) => {
 	return (
 		<button>{index}</button>
@@ -71,7 +73,8 @@ function App(){
 위의 코드는 prop이 변하는 하나의 컴포넌트를 랜더링 하기 위해 아래의 500개의 컴포넌트도 랜더링 됩니다.
 
 #### 개선 후
-```
+```jsx
+
 const Btn = ({index}) => {
 	return (
 		<button>{index}</button>
@@ -103,7 +106,8 @@ function App(){
 어떤 컴포넌트의 개발자가 prop들을 어떤 타입으로 받기를 원하는지는 알 수 없습니다.
 이 부분을 돕기 위한 라이브러리가 prop-types 입니다.
 prop-types 라이브러리를 사용하여 prop의 타입을 명시하고 컴포넌트를 사용하는 개발자들에게 도움을 줄 수 있습니다.
-```
+```jsx
+
 const Btn = ({text, fontSize}) =>{
 	return(
 		<button 
@@ -165,7 +169,8 @@ CSS module를 사용하는 방법은 간단합니다.
 그리고 module화 되지 않은 css 파일을 module 처럼 사용했을 때에는 어떻게 되는지에 대한 예시도 함께 있습니다.
 
 App.js 코드 예제   
-````
+````jsx
+
 import Apple from "./Apple";
 
 function App() {
@@ -180,7 +185,8 @@ export default App;
 
 
 Apple.js 코드 예제   
-````
+````jsx
+
 import cssModule from "./Apple.module.css";
 import vanilaCss from "./Apple.css";
 
@@ -198,14 +204,14 @@ export default Apple;
 
 Apple.module.css 와 Apple.css 의 구성은 동일합니다.   
 
-````
+````css
 .apple{
 	color:red;
 }
 ````
 
 
-````
+````css
 .apple{
 	color:red;
 }
@@ -233,7 +239,7 @@ Apple.module.css 와 Apple.css 의 구성은 동일합니다.
 
 예로 fruits 이라는 값이 있다고 가정할 때의 예제입니다.   
 
-```
+```jsx
 function App(){
 	const [fruits, setFruits] = useState('');
 

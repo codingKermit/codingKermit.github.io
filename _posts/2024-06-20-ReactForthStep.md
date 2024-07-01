@@ -24,7 +24,8 @@ tags:
 
 
 사용 예시
-```
+```js
+
 const array1 = [1,2,3,4,5];
 
 // {}를 생략한 방식
@@ -47,7 +48,8 @@ const arrya4 = array1.map((x)=>(x*2));
 JSX 내에서 자바스크립트를 사용하기 위해서는 중괄호(`{}`) 를 사용합니다.
 
 사용 예시
-```
+```jsx
+
 function App(){
 
 	const items = [

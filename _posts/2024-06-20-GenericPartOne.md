@@ -32,7 +32,8 @@ tags:
 그래서 가장 쉬운 예시를 보자면 List 객체의 선언 자체가 달라졌습니다.
 
 제네릭 적용 전
-```
+```java
+
 List list = new ArrayList();
 ```
 이를 원시타입이라고도 부릅니다. 자세한 부분은 후술하겠습니다  
@@ -40,14 +41,16 @@ List list = new ArrayList();
 
 <br>
 제네릭 적용 후
-```
+```java
+
 List<String> list = new ArrayList<>();
 ```
 
 그리고 위에서 언급했듯 제네릭이 없던 때의 List는 Object를 담는 객체이기 때문에 항상 형변환을 해야했습니다.
 
 제네릭 적용 전
-```
+```java
+
 List list = new ArrayList();
 list.add("Hello :)");
 list.add("Bye Bye :(");
@@ -56,7 +59,8 @@ String bye = (String) list.get(1);
 ```
 
 제네릭 적용 후
-```
+```java
+
 List<String> list = new ArrayList<>();
 list.add("Hello :) ");
 list.add("Bye :( ");
@@ -79,7 +83,8 @@ String bye = list.get(1);
 6. S, U, V 등 : 2차, 3차 타입
 
 제네릭 클래스 예제
-```
+```java
+
 publoc class Box<T> {
 	private T t;
 
@@ -94,7 +99,7 @@ publoc class Box<T> {
 ```
 
 제네릭 인스턴스 생성 예제
-```
+```java
 
 Box<String> stringBox = new Box<String>();
 
@@ -112,7 +117,8 @@ Box<Integer> integerBox = new Box<>();
 제네릭을 사용하는 가장 보편적인 객체인 List와 Map을 예시로 하겠습니다.  
 
 예제)  
-```
+```java
+
 List<Integer> list = new ArrayList<>();
 
 // rawList는 List의 원시 타입
@@ -139,11 +145,12 @@ HashMap is a raw type. References to generic type HashMap<K,V> should be paramet
 반대의 경우도 가능합니다 하지만 형변환 에러를 유발할 수 있는 잠재적 위험을 가집니다.  
 
 가령 아래의 예제의 경우
-```
+```java
+
 List rawList = new ArrayList();
 List<Integer> integerList = new ArrayList<>();
 
-... 생략
+//...생략
 
 integerList = rawList;
 /*

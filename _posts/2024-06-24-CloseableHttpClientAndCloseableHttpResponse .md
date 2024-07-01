@@ -17,12 +17,13 @@ CloseableHttpClient 클래스와 CloseableHttpResponse  클래스는 HTTP 통신
 
 ### 기본적인 방법
 가장 기본적인 예시로는 아래처럼 할 수 있습니다
-```
+```java
+
 CloseableHttpResponse httpclient = null;
 CloseableHttpClient response = null;
 
 try{
-	...생략
+	//...생략
 } catch (Exception e){
 	
 } finally {
@@ -43,12 +44,13 @@ try{
 ### POI 라이브러리 사용하기
 만약 POI 라이브러리를 사용하고 있다면 아래와 같이 보다 간략하게 사용할 수 있습니다
 
-```
+```java
+
 CloseableHttpResponse httpclient = null;
 CloseableHttpClient response = null;
 
 try{
-	...생략
+	//...생략
 } catch (Exception e){
 	
 } finally {
@@ -65,12 +67,13 @@ POI에서 제공하는 메서드로 Closable 인터페이스를 구현한 클래
 AutoCloseable 인터페이스를 구현한 객체를 대상으로 사용할 수 있습니다.  
 HTTP 통신에 주로 사용되는 CloseAbleHttpResponse와 CloseableHttpcClient는 Closeable을 구현했으며 Closeable의 부모 인터페이스로 AutoCloseable이 추가되었기 때문에 사용이 가능합니다.
 
-```
+```java
+
 try(CloseableHttpResponse httpclient = HttpClients.createDefault()){
 	String url = "https://sample.api.com"
 	
 	try(CloseableHttpResponse response = httpclient.execute(deleteWithBody)){
-		...생략
+		//...생략
 	}
 }
 ```

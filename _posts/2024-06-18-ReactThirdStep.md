@@ -19,7 +19,8 @@ tags:
 
 그렇기 때문에 아래의 예제에서 `<Hi/>`는 `show`의 값에 따라 마운트되고 언마운트되기 때문에 `useEffect()` 내의 코드는 컴포넌트가 마운트될 때 마다 수행됩니다.
 
-```
+```jsx
+
 function Hi(){
 	useEffect(()=>{
 		console.log("run once");
@@ -42,7 +43,8 @@ const onClick = () => setShow((prev) => !prev);
 ## 02. Clean-up function
 클린업 함수는 useEffect()에서 컴포넌트가 언마운트될 때를 감지하여 동작하는 함수입니다.
 
-```
+```jsx
+
 function Hi(){
 	useEffect(()=>{
 		console.log("created");
@@ -67,7 +69,8 @@ const onClick = () => setShow((prev) => !prev);
 
 지금까지 배운 것을 정리하여 `useEffect()`의 구조를 다시 본다면 아래와 같다 할 수 있겠습니다.  
 
-```
+```jsx
+
 useEffect(()=>{
 	// 컴포넌트가 마운트될 때 or 추적할 변수의 값이 변경될 때 동작할 내용
 

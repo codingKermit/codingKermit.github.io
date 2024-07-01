@@ -98,7 +98,8 @@ ul 태그 내부의 마지막에 li가 추가됩니다.
 
 `append()` 와 동일한 기능을 가지지만 형식이 다릅니다.
 
-```
+```javascript
+
 $('<li>Hello!</li>').appendTo('ul')
 ```
 
@@ -128,7 +129,8 @@ $('div').html("<p>Bye!</p>"); // div의 내부 html을 <p>Bye!</p> 로 변경
 
 선택한 요소 내부의 첫 번째 위치에 요소를 삽입합니다.
 
-```
+```javascript
+
 $('ul').prepend('<li>One</li>')
 ```
 
@@ -137,7 +139,8 @@ ul 의 첫 번째 요소로 li가 추가됩니다.
 
 prpend()와 기능은 같습니다. 하지만 사용 방식은 appendTo()와 같습니다.
 
-```
+```javascript
+
 $('<li>First</li>').prependTo('ul');
 ```
 

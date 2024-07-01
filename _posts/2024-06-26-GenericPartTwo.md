@@ -23,7 +23,8 @@ tags:
 제네릭 메서드를 구현한 클래스가 제네릭 클래스인지는 상관이 없다는 얘기입니다.
 
 제네릭 메서드의 예시
-```
+```java
+
 public class Util{
 
 	public static <T> printArray(T[] t){
@@ -56,7 +57,8 @@ public static voie main(String[] args){
 
 ##### 제네릭 메서드 사용 전
 
-```
+```java
+
 public class Util{
 
 	// 문자열 배열을 출력하는 메서드
@@ -86,7 +88,8 @@ public class Util{
 제네릭 메서드를 사용하기 전에는 위의 예제처럼 비슷한 기능을 하면서 중복되는 코드가 많이 발생하게 됩니다.
 
 ##### 제네릭 메서드 사용 후
-```
+```java
+
 public class Util{
 
 	// 모든 타입의 배열을 출력
