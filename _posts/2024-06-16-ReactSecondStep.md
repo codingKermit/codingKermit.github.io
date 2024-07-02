@@ -174,11 +174,11 @@ App.js 코드 예제
 import Apple from "./Apple";
 
 function App() {
-  return (
-    <div className="App">
-      <Apple/>
-    </div>
-  );
+	return (
+		<div className="App">
+			<Apple/>
+		</div>
+	);
 }
 export default App;
 ````
@@ -191,12 +191,12 @@ import cssModule from "./Apple.module.css";
 import vanilaCss from "./Apple.css";
 
 function Apple(){
-    return(
-        <div>
-            <h1 className={cssModule.apple}>Hi! I am Apple with CSS module!</h1>
-            <h1 className={vanilaCss.apple}>Hi! I am Apple with vanila CSS!</h1>
-        </div>
-    )
+	return(
+		<div>
+			<h1 className={cssModule.apple}>Hi! I am Apple with CSS module!</h1>
+			<h1 className={vanilaCss.apple}>Hi! I am Apple with vanila CSS!</h1>
+		</div>
+	)
 }
 
 export default Apple;
