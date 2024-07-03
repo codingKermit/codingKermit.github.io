@@ -92,10 +92,10 @@ Serializable s = pick("d", new ArrayList<String>());
 여기서 반환 값이 `Serializable` 인 것에서 유추를 해볼 수 있는데요, 두 클래스가 공통으로 구현하고 있는 인터페이스는 `Serializable` 입니다.
 
 ![String](assets/img/screenshot/Pasted%20image%2020240703143442.png)  
-<p><small align="center">String</small></p>
+<p align="center"><small>String</small></p>
 
 ![ArrayList](assets/img/screenshot/Pasted%20image%2020240703143527.png)   
-<p><small>ArrayList</small></p>
+<p align="center"><small>ArrayList</small></p>
 
 타입 추론은 가능한 가장 구체적인 클래스로 하게 됩니다.  
 때문에 어떠한 두 자료형을 넣었을 때 공통되는 인터페이스 or 상속이 없다면 Object로 추론되곤 합니다.
