@@ -50,7 +50,8 @@ numList = intList; // error
 ## 제네릭 클래스의 상속과 하위 계층화
 
 하지만 제네릭은 클래스 자체는 상속이 가능하고 하위 유형을 만들 수도 있습니다.  
-가장 대표적인 예는 `Collection` , `List`, `ArrayList` 의 관계가 있습니다.
+가장 대표적인 예는 `Collection` , `List`, `ArrayList` 의 관계가 있습니다.  
+
 ![](https://docs.oracle.com/javase/tutorial/figures/java/generics-sampleHierarchy.gif)  
 
 코드로 직접 만들어 예제를 만들어 보겠습니다.
