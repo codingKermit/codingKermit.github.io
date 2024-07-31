@@ -193,3 +193,5 @@ Integer x = (Integer)mn.data;
 
 브릿지 메서드의 생성을 보았으니 위의 코드가 어째서 에러가 발생하는지 추론해 볼 수 있습니다.  
 `n.setData("Hello");` 구문에서 `setData((Integer) data);` 가 실행되지만 `String`은 `Integer`로 캐스트 할 수 없기 때문에 `ClassCastException` 예외를 발생시킵니다.
+
+---

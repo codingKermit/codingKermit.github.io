@@ -1,8 +1,13 @@
 ---
-title : MSSQL의 데이터 타입
-date : 2023-10-14 10:31
-categories : [db, mssql]
-tags : [mssql]
+title: MSSQL의 데이터 타입
+date: 2023-10-14 10:31
+categories:
+  - SQL
+  - MSSQL
+tags:
+  - MSSQL
+  - SQL
+  - DB
 ---
 
 안녕하세요 개발구리🐸 입니다
