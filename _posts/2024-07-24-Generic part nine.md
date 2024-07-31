@@ -114,6 +114,6 @@ IDE에 따라 다른 것인지는 모르겠지만 저의 경우에는 아래의 
 공식 문서의 내용을 그대로 번역하기에는 저도 이해가 되지 않는 부분이 많습니다. GPT를 활용했고 일부 의역이 있기 때문에 잘못된 부분이 있을 수 있습니다.
 
 ---
-참조 : [☕ 자바 제네릭 타입 소거 컴파일 과정 알아보기](https://inpa.tistory.com/entry/JAVA-%E2%98%95-%EC%A0%9C%EB%84%A4%EB%A6%AD-%ED%83%80%EC%9E%85-%EC%86%8C%EA%B1%B0-%EC%BB%B4%ED%8C%8C%EC%9D%BC-%EA%B3%BC%EC%A0%95-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0#reifiable_%EC%99%80_non-reifiable)
-참조 : [☕ 힙 오염 (Heap Pollution) 이란?](https://inpa.tistory.com/entry/JAVA-%E2%98%95-%EC%A0%9C%EB%84%A4%EB%A6%AD-%ED%9E%99-%EC%98%A4%EC%97%BC-Heap-Pollution-%EC%9D%B4%EB%9E%80)
-참조 : [자바 공식 문서(Non-Reifiable Types)](https://docs.oracle.com/javase/tutorial/java/generics/nonReifiableVarargsType.html)  
+참조 : [☕ 자바 제네릭 타입 소거 컴파일 과정 알아보기](https://inpa.tistory.com/entry/JAVA-%E2%98%95-%EC%A0%9C%EB%84%A4%EB%A6%AD-%ED%83%80%EC%9E%85-%EC%86%8C%EA%B1%B0-%EC%BB%B4%ED%8C%8C%EC%9D%BC-%EA%B3%BC%EC%A0%95-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0#reifiable_%EC%99%80_non-reifiable)  
+참조 : [☕ 힙 오염 (Heap Pollution) 이란?](https://inpa.tistory.com/entry/JAVA-%E2%98%95-%EC%A0%9C%EB%84%A4%EB%A6%AD-%ED%9E%99-%EC%98%A4%EC%97%BC-Heap-Pollution-%EC%9D%B4%EB%9E%80)  
+참조 : [자바 공식 문서(Non-Reifiable Types)](https://docs.oracle.com/javase/tutorial/java/generics/nonReifiableVarargsType.html)    
