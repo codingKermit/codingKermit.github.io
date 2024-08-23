@@ -1,5 +1,5 @@
 ---
-title: 옵시디언 시작하기 & 깃허브 연동하기
+title: Obsidian 시작하기, Git 연동하기
 date: 2024-05-08
 categories:
   - Obsidian
