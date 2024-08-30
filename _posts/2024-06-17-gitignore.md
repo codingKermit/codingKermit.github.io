@@ -21,7 +21,7 @@ tags:
 
 git에서는 한번 추적된 파일에는 gitignore이 적용되지 않기 때문에 캐시를 제거해야 했습니다(!!!)
 
-> git -rm -r --cached .
+> git rm -r --cached .
 
 위의 명령어로 캐시를 제거하고 다시 커밋하여 변경된 gitignore 옵션을 적용할 수 있습니다.
 
