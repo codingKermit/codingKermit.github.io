@@ -27,3 +27,6 @@ package-lock.json
 
 # Obsidian context db file
 context.mdb
+
+#trash file
+.trash
