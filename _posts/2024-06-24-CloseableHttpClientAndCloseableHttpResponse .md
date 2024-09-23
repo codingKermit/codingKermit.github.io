@@ -69,7 +69,7 @@ HTTP 통신에 주로 사용되는 CloseAbleHttpResponse와 CloseableHttpcClient
 
 ```java
 
-try(CloseableHttpResponse httpclient = HttpClients.createDefault()){
+try(CloseableHttpClient httpclient = HttpClients.createDefault()){
 	String url = "https://sample.api.com"
 	
 	try(CloseableHttpResponse response = httpclient.execute(deleteWithBody)){
