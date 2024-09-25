@@ -25,7 +25,7 @@ tags:
 - `hide()` 된 요소에서 EasyUI로 요소를 조작한 후, 해당 요소들의 사이즈를 원하는 사이즈로 조정하는 로직 추가
 
 ```javascript
-	/* 조작하는 요소가 1개 이상이기 때문에 for 문을 사용 했습니다. */
+	/* 조작하는 요소가 여러개였기 때문에 for 문을 사용 했습니다. */
 	for(const id of ids){
 		$(`#${id}`).combobox({
 	        onLoadSuccess: function() { // 요소가 그려진 후 동작
