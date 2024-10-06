@@ -2,6 +2,7 @@
 title: 리액트 맛보기 4일차
 date: 2024-06-20
 categories:
+  - 공부일기
   - React
 tags:
   - 프론트엔드

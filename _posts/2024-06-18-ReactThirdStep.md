@@ -2,6 +2,7 @@
 title: 리액트 맛보기 3일차
 date: 2024-06-18
 categories:
+  - 공부일기
   - React
 tags:
   - 리액트
