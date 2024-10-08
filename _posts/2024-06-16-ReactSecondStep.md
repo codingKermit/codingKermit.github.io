@@ -2,6 +2,7 @@
 title: 리액트 맛보기 2일차
 date: 2024-06-16
 categories:
+  - 공부일기
   - React
 tags:
   - FrontEnd
