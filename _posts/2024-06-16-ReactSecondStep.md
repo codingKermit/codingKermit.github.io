@@ -107,8 +107,8 @@ function App(){
 어떤 컴포넌트의 개발자가 prop들을 어떤 타입으로 받기를 원하는지는 알 수 없습니다.
 이 부분을 돕기 위한 라이브러리가 prop-types 입니다.
 prop-types 라이브러리를 사용하여 prop의 타입을 명시하고 컴포넌트를 사용하는 개발자들에게 도움을 줄 수 있습니다.
-```javascript
-
+```jsx
+/***
 const Btn = ({text, fontSize}) =>{
 	return(
 		<button 
@@ -130,6 +130,7 @@ function App(){
 		<Btn text="This is String" fontSize={"This is String"}/>
 	)
 }
+*/
 ```
 위와 같은 코드는 컴파일 에러를 발생 시키지 않지만 개발자도구에서 에러를 발생시킵니다.
 
