@@ -113,7 +113,7 @@ const Btn = ({text, fontSize}) =>{
 	return(
 		<button 
 			style={{
-				fontSize
+				fontSize : fontSize
 			}}
 		>{text}</button>
 	)
