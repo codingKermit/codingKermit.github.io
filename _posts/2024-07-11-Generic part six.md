@@ -15,10 +15,10 @@ tags:
 이전에 제네릭의 상속에 대해 봤었습니다.  
 제네릭은 타입 변수 간의 상속이 제네릭 클래스에서 관계와 연결되는 것은 아님을 봤습니다.  
 예로 `List<Number>` 와 `List<Integer`는 서로 상속 관계에 있지 않습니다. 그리고 이 둘의 공통 부모는 `List<?>` 가 됩니다.   `List<?>`는 `List<? extends Object>` 로 볼 수 있기 때문에 `List<Number>`와 `List<Integer>`의 공통 조상이 되는 것 입니다.  
-아래의 표로 이 관계를 표현할 수 있습니다.
+아래의 표로 이 관계를 표현할 수 있습니다.  
 ![](https://wsrv.nl?url=https://docs.oracle.com/javase/tutorial/figures/java/generics-listParent.gif)  
-
-그리고 이전에 하한, 상한 와일드카드에서 공부한 것을 접목하면 아래와 같은 관계가 성립됩니다.
+  
+그리고 이전에 하한, 상한 와일드카드에서 공부한 것을 접목하면 아래와 같은 관계가 성립됩니다.  
 ![](https://wsrv.nl?url=https://docs.oracle.com/javase/tutorial/figures/java/generics-wildcardSubtyping.gif)  
 
 ## 와일드카드 캡쳐 & 헬퍼 메서드
