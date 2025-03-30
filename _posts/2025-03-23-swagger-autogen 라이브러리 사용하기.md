@@ -30,6 +30,7 @@ swagger를 적용하기 위해 세 가지 방법을 찾아봤는데요.
 2. swagger-jsdoc 사용하기
 3. swagger-autogen 사용하기
 
+---
 ### swagger.json 만들어서 사용하기
 가장 기본적인 방법입니다.  
 다른 라이브러리를 필요로 하지 않습니다.  
@@ -51,6 +52,7 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 [https://swagger.io/docs/specification/v3_0/basic-structure/](https://swagger.io/docs/specification/v3_0/basic-structure/)  
 작성 방법도 같이 확인 가능합니다.  
 
+---
 ### swagger-jsdoc 사용하기
 가장 많이 사용되는 방법입니다.  
 주석을 통해 생성되며 yaml 문법을 사용합니다.  
@@ -112,6 +114,7 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(openapiSpecification));
 
 `swagger-jsdoc` 을 사용하지 않았을 때에는 json 파일을 직접 만들어서 사용했지만 이제는 `swagger-jsdoc` 가 `options` 의 내용을 토대로 json 형식의 내용을 생성합니다.  
 
+---
 ### swagger-autogen 사용하기
 단순히 swagger 문서를 빠르게 생성할 때에는 가장 손쉬운 방법입니다.  
 프로젝트의 엔드포인트를 읽어서 json 파일을 자동으로 생성해줍니다.  
