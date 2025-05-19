@@ -55,8 +55,10 @@ mongoose.connect(`mongodb://${process.env.MONGO_ID}:${process.env.MONGO_PASSWORD
 ```javascript
 mongoose.connect(`mongodb://${process.env.MONGO_ID}:${process.env.MONGO_PASSWORD}@localhost:27016/admin`,{
 /*옵션*/
-}).then((error)=>{
+}).then(()=>{
 	/*콜백*/
+}).catch((error)=>{
+	/*에러 콜백*/
 })
 ```
 
