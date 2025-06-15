@@ -18,25 +18,25 @@ AWS의 Lightsail 에서 Node.js 프로젝트를 올려보는 기록입니다.
 Lightsail은 AWS에서 검색하면 바로 확인할 수 있습니다.  
 
 인스턴스가 없는 첫 화면 입니다. 인스턴스 생성을 누릅니다.  
-![](/assets/img/Pasted%20image%2020250607204152.png)  
+![](/assets/img/screenshot/Pasted%20image%2020250607204152.png)  
 <br>
 플랫폼은 리눅스를 선택하고 블루프린트는 Node.js 를 선택합니다.  
-![](/assets/img/Pasted%20image%2020250607204222.png)  
+![](/assets/img/screenshot/Pasted%20image%2020250607204222.png)  
 <br>
 첫 90일은 무료인 플랜이 있습니다. 이걸로 선택합니다. 90일 끝나기전에 꼭 삭제합시다.  
-![](/assets/img/Pasted%20image%2020250607204254.png)  
+![](/assets/img/screenshot/Pasted%20image%2020250607204254.png)  
 <br>
 만들어졌습니다 짠! 눌러서 인스턴스에 접근해봅니다  
-![](/assets/img/Pasted%20image%2020250607204421.png)  
+![](/assets/img/screenshot/Pasted%20image%2020250607204421.png)  
 <br>
 퍼블릭 IPv4 주소와 "SSH를 사용하여 연결" 버튼이 있습니다.  
-![](/assets/img/Pasted%20image%2020250607204533.png)  
+![](/assets/img/screenshot/Pasted%20image%2020250607204533.png)  
 <br>
 퍼블릭 IPv4 주소를 사용해 웹에서 접근해보면 아래와 같은 페이지가 나옵니다. 어차피 이 글의 주소로 접근해보면 제가 삭제해서 안들어가지니 직접 만든 인스턴스로 테스트 해봅시다.  
-![](/assets/img/Pasted%20image%2020250607204645.png)   
+![](/assets/img/screenshot/Pasted%20image%2020250607204645.png)   
 <br>
 이번엔 "SSH를 시용하여 연결" 버튼을 눌러봅니다.  
-![](/assets/img/Pasted%20image%2020250607204800.png)  
+![](/assets/img/screenshot/Pasted%20image%2020250607204800.png)  
 인스턴스에 정상적으로 접근이 되었습니다.  
 
 ## 2. mysql 설치하기
@@ -48,13 +48,13 @@ Lightsail은 AWS에서 검색하면 바로 확인할 수 있습니다.
 > sudo wget https://dev.mysql.com/get/mysql-apt-config_0.8.30-1_all.deb
 > sudo dpkg -i mysql-apt-config_0.8.30-1_all.deb
 
-![](/assets/img/Pasted%20image%2020250610210053.png) 
+![](/assets/img/screenshot/Pasted%20image%2020250610210053.png) 
 여기서는 OK 를 선택합니다.  
 
 > sudo apt update
 > sudo apt install -y mysql-server
 
-![](/assets/img/Pasted%20image%2020250610210154.png)  
+![](/assets/img/screenshot/Pasted%20image%2020250610210154.png)  
 사용할 패스워드를 입력합니다. 다음 화면에서도 동일하게 입력해줍니다.  
 
 이후 아래의 명령어를 통해 mysql 을 실행하여 DB에 접근합니다.  

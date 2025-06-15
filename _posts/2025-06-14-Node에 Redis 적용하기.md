@@ -26,23 +26,23 @@ _sort:
 <https://redis.io/ko/>  
 에서 레디스 계정을 생성할 수 있습니다. 구글, 깃허브 등으로도 가입이 손쉽게 가능합니다.  
 
-![](/assets/img/Pasted%20image%2020250614010658.png)  
+![](/assets/img/screenshot/Pasted%20image%2020250614010658.png)  
 가입했다면 좌측의 데이터베이스를 선택하고 프리 플랜을 선택합니다.  
 저는 이미 프리 플랜인 데이터베이스를 하나 사용 중이어서 비활성화 되어있습니다.  
 
 다음으로 봐야하는 부분은 데이터베이스 이름과 클라우드 벤더입니다.  
-![](/assets/img/Pasted%20image%2020250614011028.png)  
+![](/assets/img/screenshot/Pasted%20image%2020250614011028.png)  
 <br>
 어차피 프리 플랜만 이용할 예정이니 저는 AWS 로 했고 리전은 서울로 했습니다.  
 만약 유료 사용을 한다면 벤더에 따라 가격이 달라지므로 잘 비교해보시고 선택하세요.  
 
 생성한 데이터베이스에 접근해서 연결을 위해 사용하는 것은 두 가지인데요  
 첫 번째로 아래 화면처럼 General 영역의 Public endpoint 입니다.  
-![](/assets/img/Pasted%20image%2020250614011923.png)  
+![](/assets/img/screenshot/Pasted%20image%2020250614011923.png)  
 엔드포인트와 포트가 명시되어 있습니다.  
 
 두 번째로는 Security 영역의 password 입니다.  
-![](/assets/img/Pasted%20image%2020250614011958.png)  
+![](/assets/img/screenshot/Pasted%20image%2020250614011958.png)  
 
 이 두 값을 사용해서 레디스 데이터베이스에 연결할 수 있습니다.  
 
